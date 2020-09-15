@@ -19,4 +19,8 @@ const io = SocketIO(server)
 // websockets
 io.on('connection', (socket) => {
     console.log('new connection', socket.id)
+
+    socket.on('chat: message', (data) => {
+        io.sockets.emit('server: message', data)
+    })
 })
