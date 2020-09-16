@@ -1,2 +1,2 @@
 # WebSockets-Chat
-WebSockets, con Socket.io y Nodejs | Chat con Socket.io
+Chat where you can send message to other users and watch when someone is typing
